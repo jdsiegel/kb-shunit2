@@ -1,5 +1,0 @@
-#!/bin/bash
-[ -n "$JR_DEBUG" ] && set -x
-
-. $1
-. $(jr-vendorpath shunit2)/shunit2
